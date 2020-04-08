@@ -98,6 +98,12 @@ header a {
   margin: 0 auto;
   margin-bottom: 20%;
 }
+@media screen and (max-width: 1200px) {
+  .menu2 {
+    margin-bottom: 10%;
+    height: 1850px;
+  }
+}
 .menu2 .note1er {
   display: flex;
   justify-content: center;
@@ -190,6 +196,11 @@ header a {
 .menu2 .dessert li {
   color: #905bfd;
 }
+@media screen and (max-width: 1000px) {
+  .menu2 img {
+    height: 30px;
+  }
+}
 
 li {
   display: flex;
@@ -205,8 +216,16 @@ li .prix {
   margin-left: auto;
   margin-right: 5%;
 }
+@media screen and (max-width: 1200px) {
+  li li {
+    font-size: 1.3em;
+  }
+  li .plat {
+    margin-left: 2%;
+  }
+}
 
-/*footer*/
+/* footer */
 footer {
   background-color: #579c87;
   position: fixed;
@@ -265,25 +284,6 @@ footer a {
   }
   100% {
     transform: translate(1px, 1px);
-  }
-}
-/*responsive*/
-@media screen and (max-width: 1200px) {
-  img {
-    height: 30px;
-  }
-
-  .menu2 {
-    margin-bottom: 10%;
-    height: 1850px;
-  }
-
-  li {
-    font-size: 1.3em;
-  }
-
-  .plat {
-    margin-left: 2%;
   }
 }
 
