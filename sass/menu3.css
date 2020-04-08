@@ -27,56 +27,20 @@ header a {
 }
 
 /*iphone*/
-.iphone .border1 {
+.iphone .border {
   display: inline-block;
-  color: #d17200;
+  color: #000;
   text-decoration: none;
 }
-.iphone .border1::after {
+.iphone .border::after {
   content: "";
   display: block;
   width: 0;
   height: 3px;
-  background: #d17200;
+  background: #3c1218;
   transition: width 0.3s;
 }
-.iphone .border1:hover::after {
-  width: 100%;
-  transition: width 0.3s;
-}
-
-.iphone .border2 {
-  display: inline-block;
-  color: #ac6baf;
-  text-decoration: none;
-}
-.iphone .border2::after {
-  content: "";
-  display: block;
-  width: 0;
-  height: 3px;
-  background: #ac6baf;
-  transition: width 0.3s;
-}
-.iphone .border2:hover::after {
-  width: 100%;
-  transition: width 0.3s;
-}
-
-.iphone .border-3 {
-  display: inline-block;
-  color: #905bfd;
-  text-decoration: none;
-}
-.iphone .border-3::after {
-  content: "";
-  display: block;
-  width: 0;
-  height: 3px;
-  background: #905bfd;
-  transition: width 0.3s;
-}
-.iphone .border-3:hover::after {
+.iphone .border:hover::after {
   width: 100%;
   transition: width 0.3s;
 }
@@ -89,115 +53,96 @@ header a {
   font-weight: normal;
 }
 
-.menu2 {
+.menu3 {
   width: 90%;
-  height: 1650px;
+  height: 1500px;
   border-radius: 1%;
   box-shadow: 0.5px 0.5px 10px grey;
-  background-color: #fff5fe;
+  background-color: #f9f9f9;
   margin: 0 auto;
   margin-bottom: 20%;
 }
 @media screen and (max-width: 1200px) {
-  .menu2 {
+  .menu3 {
     margin-bottom: 19%;
-    height: 1650px;
+    height: 1500px;
   }
 }
-.menu2 .note1er {
+.menu3 .note1er {
   display: flex;
   justify-content: center;
 }
-.menu2 .border1 {
+.menu3 .border1 {
   display: inline-block;
-  color: #d17200;
   text-decoration: none;
 }
-.menu2 .border1::after {
+.menu3 .border1::after {
   content: "";
   display: block;
   width: 0;
   height: 3px;
-  background: #d17200;
+  background: #0431df;
   transition: width 0.3s;
 }
-.menu2 .border1:hover::after {
+.menu3 .border1:hover::after {
   width: 100%;
   transition: width 0.3s;
 }
-.menu2 .border2 {
+.menu3 .border2 {
   display: inline-block;
-  color: #ac6baf;
   text-decoration: none;
 }
-.menu2 .border2::after {
+.menu3 .border2::after {
   content: "";
   display: block;
   width: 0;
   height: 3px;
-  background: #ac6baf;
+  background: #126df1;
   transition: width 0.3s;
 }
-.menu2 .border2:hover::after {
+.menu3 .border2:hover::after {
   width: 100%;
   transition: width 0.3s;
 }
-.menu2 .border-3 {
+.menu3 .border3 {
   display: inline-block;
-  color: #905bfd;
   text-decoration: none;
 }
-.menu2 .border-3::after {
+.menu3 .border3::after {
   content: "";
   display: block;
   width: 0;
   height: 3px;
-  background: #905bfd;
+  background: #0887fb;
   transition: width 0.3s;
 }
-.menu2 .border-3:hover::after {
+.menu3 .border3:hover::after {
   width: 100%;
   transition: width 0.3s;
 }
-.menu2 .chic {
-  font-size: 50px;
-  font-family: "croissant one";
-  background-image: linear-gradient(to right, #d8852e, #be747e, #ac6baf, #905bfd);
-  color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
-  padding-top: 7%;
-  margin-bottom: 7%;
-}
-.menu2 .Titre-menu1, .menu2 .Titre-menu2, .menu2 .Titre-menu3 {
+.menu3 .Titre-menu1, .menu3 .Titre-menu2, .menu3 .Titre-menu3 {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.menu2 .Titre-menu1 h3, .menu2 .Titre-menu3 h3,
-.menu2 .Titre-menu2 h3 {
+.menu3 .delice {
+  font-size: 50px;
+  font-family: "parisienne";
+  padding-top: 7%;
+  margin-bottom: 7%;
+  background-image: linear-gradient(to right, #0431df, #0655eb, #126df1, #0887fb);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.menu3 h3 {
   font-family: "segoe print", "tillana";
   margin-top: 3%;
   font-size: 2em;
-  color: #d17200;
-}
-.menu2 .Titre-menu2 h3 {
-  color: #ac6baf;
-}
-.menu2 .Titre-menu3 h3 {
-  color: #905bfd;
-}
-.menu2 .entree li {
-  color: #d17200;
-}
-.menu2 .repas li {
-  color: #ac6baf;
-}
-.menu2 .dessert li {
-  color: #905bfd;
+  text-align: center;
 }
 @media screen and (max-width: 1000px) {
-  .menu2 img {
+  .menu3 img {
     height: 30px;
   }
 }
@@ -207,7 +152,7 @@ li {
 }
 li p {
   font-family: "tillana";
-  font-size: 1.3em;
+  font-size: 1.1em;
 }
 li .plat {
   margin-left: 10%;
@@ -218,14 +163,14 @@ li .prix {
 }
 @media screen and (max-width: 1200px) {
   li li {
-    font-size: 1.3em;
+    font-size: 1.5em;
   }
   li .plat {
-    margin-left: 2%;
+    margin-left: 1%;
   }
 }
 
-/* footer */
+/*footer*/
 footer {
   background-color: #579c87;
   position: fixed;
@@ -287,4 +232,4 @@ footer a {
   }
 }
 
-/*# sourceMappingURL=menu2.css.map */
+/*# sourceMappingURL=menu3.css.map */
