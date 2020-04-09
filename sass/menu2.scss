@@ -105,20 +105,6 @@ header {
     }
 }
 
-/*iphone*/
-
-.iphone .border1 {
-    @include border-1;
-}
-
-.iphone .border2 {
-    @include border-2;
-}
-
-.iphone .border-3 {
-    @include border-3;
-}
-
 /*Corps*/
 
 .premiertitre {
@@ -212,9 +198,10 @@ header {
     .dessert li {
         color: $dark-purple;
     }
-
-    @media screen and (max-width: 1000px) {
-        img {
+    img {
+        height: 50px;
+        
+        @media screen and (max-width: 1000px) {
             height: 30px;
         }
     }

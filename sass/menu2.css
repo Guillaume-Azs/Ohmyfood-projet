@@ -26,61 +26,6 @@ header a {
   text-decoration: none;
 }
 
-/*iphone*/
-.iphone .border1 {
-  display: inline-block;
-  color: #d17200;
-  text-decoration: none;
-}
-.iphone .border1::after {
-  content: "";
-  display: block;
-  width: 0;
-  height: 3px;
-  background: #d17200;
-  transition: width 0.3s;
-}
-.iphone .border1:hover::after {
-  width: 100%;
-  transition: width 0.3s;
-}
-
-.iphone .border2 {
-  display: inline-block;
-  color: #ac6baf;
-  text-decoration: none;
-}
-.iphone .border2::after {
-  content: "";
-  display: block;
-  width: 0;
-  height: 3px;
-  background: #ac6baf;
-  transition: width 0.3s;
-}
-.iphone .border2:hover::after {
-  width: 100%;
-  transition: width 0.3s;
-}
-
-.iphone .border-3 {
-  display: inline-block;
-  color: #905bfd;
-  text-decoration: none;
-}
-.iphone .border-3::after {
-  content: "";
-  display: block;
-  width: 0;
-  height: 3px;
-  background: #905bfd;
-  transition: width 0.3s;
-}
-.iphone .border-3:hover::after {
-  width: 100%;
-  transition: width 0.3s;
-}
-
 /*Corps*/
 .premiertitre {
   font-size: 2em;
@@ -199,6 +144,9 @@ header a {
 }
 .menu2 .dessert li {
   color: #905bfd;
+}
+.menu2 img {
+  height: 50px;
 }
 @media screen and (max-width: 1000px) {
   .menu2 img {
