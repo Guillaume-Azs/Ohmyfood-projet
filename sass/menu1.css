@@ -59,7 +59,6 @@ header a {
   background-image: linear-gradient(to right, #f15861, #f15861, #f78f6a, #f78f6a);
   color: transparent;
   -webkit-background-clip: text;
-  background-clip: text;
   margin-top: 5%;
 }
 .menu1 .note {
@@ -129,7 +128,6 @@ header a {
   background-image: linear-gradient(to right, #f15861, #f15861, #f78f6a, #f78f6a);
   color: transparent;
   -webkit-background-clip: text;
-  background-clip: text;
 }
 .menu1 .note2 {
   font-size: 50px;
