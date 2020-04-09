@@ -37,7 +37,7 @@ header a {
   display: block;
   width: 0;
   height: 3px;
-  background: #3c1218;
+  background: #42973c;
   transition: width 0.3s;
 }
 .iphone .border:hover::after {
@@ -74,6 +74,7 @@ header a {
 }
 .menu4 .border {
   display: inline-block;
+  color: black;
   text-decoration: none;
 }
 .menu4 .border::after {

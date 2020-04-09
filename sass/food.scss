@@ -9,6 +9,10 @@ $blue: #0887fb;
 $white-3: #fdfffd;
 $green: #72bf56;
 
+@mixin degrade-couleur {
+        color: transparent;
+        -webkit-background-clip: text;
+}
 
 /*general*/
 body,
@@ -98,8 +102,7 @@ header {
         font-size: 130px;
         transition: transform .5s;
         background-image: linear-gradient(to right, #f15861, #f15861, #f78f6a, #f78f6a);
-        color: transparent;
-        -webkit-background-clip: text;
+        @include degrade-couleur;
     }
 
     .note {
@@ -128,8 +131,7 @@ header {
         font-size: 38px;
         width: 100%;
         background-image: linear-gradient(to right, #d8852e, #be747e, #ac6baf, #905bfd);
-        color: transparent;
-        -webkit-background-clip: text;
+        @include degrade-couleur;
     }
 
     .titre2 {
@@ -147,8 +149,7 @@ header {
         font-family: 'parisienne';
         font-size: 50px;
         background-image: linear-gradient(to right, #0431df, #0655eb, #126df1, #0887fb);
-        color: transparent;
-        -webkit-background-clip: text;
+        @include degrade-couleur;
     }
 
     .titre3 {
@@ -165,8 +166,7 @@ header {
         font-family: 'tillana';
         font-size: 48px;
         background-image: linear-gradient(to right, #42973c, #69b852, #9be16c, #bfff7e);
-        color: transparent;
-        -webkit-background-clip: text;
+        @include degrade-couleur;
     }
 
     .titre4 {

@@ -4,6 +4,36 @@ $pink: #fcdfdb;
 $brown: #3c1218;
 
 
+@mixin animation-border {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+
+    &::after {
+        content: '';
+        display: block;
+        width: 0;
+        height: 3px;
+        background: $brown;
+        transition: width .3s;
+    }
+
+    &:hover::after {
+        width: 100%;
+        transition: width .3s;
+    }
+}
+
+@mixin color-transparent {
+        font-size: 90px;
+        background-image: linear-gradient(to right, #f15861, #f15861, #f78f6a, #f78f6a);
+        color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+}
+
+/*general*/
+
 body,
 html {
     margin: 0;
@@ -39,23 +69,7 @@ header {
 /*iphone*/
 
 .iphone .border {
-    display: inline-block;
-    color: black;
-    text-decoration: none;
-
-    &::after {
-        content: '';
-        display: block;
-        width: 0;
-        height: 3px;
-        background: $brown;
-        transition: width .3s;
-    }
-
-    &:hover::after {
-        width: 100%;
-        transition: width .3s;
-    }
+   @include animation-border;
 }
 
 /*Corps*/
@@ -87,11 +101,7 @@ header {
     }
 
     #music {
-        font-size: 90px;
-        background-image: linear-gradient(to right, #f15861, #f15861, #f78f6a, #f78f6a);
-        color: transparent;
-        -webkit-background-clip: text;
-        background-clip: text;
+        @include color-transparent;
         margin-top: 5%;
     }
 
@@ -106,23 +116,7 @@ header {
     }
 
     .border {
-        display: inline-block;
-        color: black;
-        text-decoration: none;
-
-        &::after {
-            content: '';
-            display: block;
-            width: 0;
-            height: 3px;
-            background: $brown;
-            transition: width .3s;
-        }
-
-        &:hover::after {
-            width: 100%;
-            transition: width .3s;
-        }
+        @include animation-border;
     }
 
     h3 {
@@ -166,11 +160,7 @@ header {
     }
 
     #music2 {
-        font-size: 90px;
-        background-image: linear-gradient(to right, #f15861, #f15861, #f78f6a, #f78f6a);
-        color: transparent;
-        -webkit-background-clip: text;
-        background-clip: text;
+        @include color-transparent;
     }
 
     .note2 {
