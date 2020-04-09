@@ -1,3 +1,19 @@
+$dark-green: #579c87;
+$yellow: #fdcb46;
+$pink: #fcdfdb;
+$brown: #3c1218;
+$white-1: #fff5fe;
+$orange: #c77412;
+$white-2: #f9f9f9;
+$blue: #0887fb;
+$white-3: #fdfffd;
+$green: #72bf56;
+$dark-blue: #0431df;
+$blue-2: #126df1;
+$blue-3: #0887fb;
+$green-border: #42973c;
+
+
 /*general*/
 
 body,
@@ -17,7 +33,7 @@ html {
 /*header*/
 
 header {
-    background-color: #579c87;
+    background-color: $dark-green;
     font-family: 'breulgroteskA-regular', sans-serif;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -33,7 +49,7 @@ header {
     }
 
     a {
-        color: #fdcb46;
+        color: $yellow;
     }
 }
 
@@ -79,13 +95,13 @@ header {
 /*footer*/
 
 footer {
-    background-color: #579c87;
+    background-color: $dark-green;
     position: fixed;
     bottom: 0;
     width: 100%;
 
     #contenair {
-        color: #fdcb46;
+        color: $yellow;
         font-family: 'NoyhRW01-SemiLight', sans-serif;
         font-size: 30px;
         display: flex;
@@ -95,7 +111,7 @@ footer {
     }
 
     a {
-        color: #fdcb46;
+        color: $yellow;
     }
 
     .mention:hover,

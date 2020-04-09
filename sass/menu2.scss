@@ -1,3 +1,19 @@
+$dark-green: #579c87;
+$yellow: #fdcb46;
+$pink: #fcdfdb;
+$brown: #3c1218;
+$white-1: #fff5fe;
+$orange: #c77412;
+$orange-1: #d17200;
+$white-2: #f9f9f9;
+$blue: #0887fb;
+$white-3: #fdfffd;
+$green: #72bf56;
+$purple: #ac6baf;
+$dark-purple: #905bfd;
+
+
+
 body,
 html {
     margin: 0;
@@ -10,7 +26,7 @@ html {
 
 
 header {
-    background-color: #579c87;
+    background-color: $dark-green;
     font-family: 'breulgroteskA-regular', sans-serif;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -26,7 +42,7 @@ header {
     }
 
     a {
-        color: #fdcb46;
+        color: $yellow;
         text-decoration: none;
     }
 }
@@ -35,7 +51,7 @@ header {
 
 .iphone .border1 {
     display: inline-block;
-    color: #d17200;
+    color: $orange-1;
     text-decoration: none;
 
     &::after {
@@ -43,7 +59,7 @@ header {
         display: block;
         width: 0;
         height: 3px;
-        background: #d17200;
+        background: $orange-1;
         transition: width .3s;
     }
 
@@ -55,7 +71,7 @@ header {
 
 .iphone .border2 {
     display: inline-block;
-    color: #ac6baf;
+    color: $purple;
     text-decoration: none;
 
     &::after {
@@ -63,7 +79,7 @@ header {
         display: block;
         width: 0;
         height: 3px;
-        background: #ac6baf;
+        background: $purple;
         transition: width .3s;
     }
 
@@ -75,7 +91,7 @@ header {
 
 .iphone .border-3 {
     display: inline-block;
-    color: #905bfd;
+    color: $dark-purple;
     text-decoration: none;
 
     &::after {
@@ -83,7 +99,7 @@ header {
         display: block;
         width: 0;
         height: 3px;
-        background: #905bfd;
+        background: $dark-purple;
         transition: width .3s;
     }
 
@@ -107,7 +123,7 @@ header {
     height: 1650px;
     border-radius: 1%;
     box-shadow: 0.5px 0.5px 10px grey;
-    background-color: #fff5fe;
+    background-color: $white-1;
     margin: 0 auto;
     margin-bottom: 20%;
 
@@ -123,7 +139,7 @@ header {
 
     .border1 {
         display: inline-block;
-        color: #d17200;
+        color: $orange-1;
         text-decoration: none;
 
         &::after {
@@ -131,7 +147,7 @@ header {
             display: block;
             width: 0;
             height: 3px;
-            background: #d17200;
+            background: $orange-1;
             transition: width .3s;
         }
 
@@ -143,7 +159,7 @@ header {
 
     .border2 {
         display: inline-block;
-        color: #ac6baf;
+        color: $purple;
         text-decoration: none;
 
         &::after {
@@ -151,7 +167,7 @@ header {
             display: block;
             width: 0;
             height: 3px;
-            background: #ac6baf;
+            background: $purple;
             transition: width .3s;
         }
 
@@ -163,7 +179,7 @@ header {
 
     .border-3 {
         display: inline-block;
-        color: #905bfd;
+        color: $dark-purple;
         text-decoration: none;
 
         &::after {
@@ -171,7 +187,7 @@ header {
             display: block;
             width: 0;
             height: 3px;
-            background: #905bfd;
+            background: $dark-purple;
             transition: width .3s;
         }
 
@@ -209,28 +225,28 @@ header {
         font-family: 'segoe print', 'tillana';
         margin-top: 3%;
         font-size: 2em;
-        color: #d17200;
+        color: $orange-1;
     }
 
     .Titre-menu2 h3 {
-        color: #ac6baf;
+        color: $purple;
     }
 
     .Titre-menu3 h3 {
-        color: #905bfd;
+        color: $dark-purple;
     }
 
     .entree li {
 
-        color: #d17200;
+        color: $orange-1;
     }
 
     .repas li {
-        color: #ac6baf;
+        color: $purple;
     }
 
     .dessert li {
-        color: #905bfd;
+        color: $dark-purple;
     }
 
     @media screen and (max-width: 1000px) {
@@ -272,13 +288,13 @@ li {
 /* footer */
 
 footer {
-    background-color: #579c87;
+    background-color: $dark-green;
     position: fixed;
     bottom: 0;
     width: 100%;
 
     #contenair {
-        color: #fdcb46;
+        color: $yellow;
         font-size: 30px;
         display: flex;
         justify-content: space-between;
@@ -293,7 +309,7 @@ footer {
     }
 
     a {
-        color: #fdcb46;
+        color: $yellow;
         text-decoration: none;
     }
 }

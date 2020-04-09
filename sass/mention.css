@@ -1,158 +1,134 @@
 /*general*/
 body,
 html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
 }
-
 body a,
 html a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /*header*/
 header {
-    background-color: #579c87;
-    font-family: "breulgroteskA-regular", sans-serif;
-    padding-top: 20px;
-    padding-bottom: 20px;
+  background-color: #579c87;
+  font-family: "breulgroteskA-regular", sans-serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
-
 header .entete {
-    width: 100%;
+  width: 100%;
 }
-
 header h1 {
-    font-size: 4em;
-    text-align: center;
-    margin: 0;
+  font-size: 4em;
+  text-align: center;
+  margin: 0;
 }
-
 header a {
-    color: #fdcb46;
+  color: #fdcb46;
 }
 
 /*corps*/
 #mention {
-    width: 50%;
-    height: 1550px;
-    text-align: center;
-    margin: 0 auto;
-    font-family: sans-serif;
+  width: 50%;
+  height: 1550px;
+  text-align: center;
+  margin: 0 auto;
+  font-family: sans-serif;
 }
-
 @media screen and (max-width: 1200px) {
-    #mention {
-        height: 2800px;
-        width: 65%;
-        margin-bottom: 5%;
-    }
+  #mention {
+    height: 2800px;
+    width: 65%;
+    margin-bottom: 5%;
+  }
 }
-
 #mention h2 {
-    font-size: 2em;
+  font-size: 2em;
 }
-
 @media screen and (max-width: 1200px) {
-    #mention h2 {
-        font-size: 3em;
-    }
+  #mention h2 {
+    font-size: 3em;
+  }
 }
-
 #mention h3 {
-    font-size: 1.2em;
+  font-size: 1.2em;
 }
-
 @media screen and (max-width: 1200px) {
-    #mention h3 {
-        font-size: 2em;
-    }
+  #mention h3 {
+    font-size: 2em;
+  }
 }
-
 #mention p {
-    font-size: 1.3em;
+  font-size: 1.3em;
 }
-
 @media screen and (max-width: 1200px) {
-    #mention p {
-        font-size: 1.7em;
-    }
+  #mention p {
+    font-size: 1.7em;
+  }
 }
 
 /*footer*/
 footer {
-    background-color: #579c87;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+  background-color: #579c87;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
-
 footer #contenair {
-    color: #fdcb46;
-    font-family: "NoyhRW01-SemiLight", sans-serif;
-    font-size: 30px;
-    display: flex;
-    justify-content: space-between;
-    margin-left: 3%;
-    margin-right: 3%;
+  color: #fdcb46;
+  font-family: "NoyhRW01-SemiLight", sans-serif;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 3%;
+  margin-right: 3%;
 }
-
 footer a {
-    color: #fdcb46;
+  color: #fdcb46;
 }
-
 footer .mention:hover,
 footer .p3:hover {
-    -webkit-animation: wiggle 0.1s infinite;
+  -webkit-animation: wiggle 0.1s infinite;
 }
 
 /*keyframes*/
 @-webkit-keyframes wiggle {
-    0% {
-        transform: translate(1px, 1px);
-    }
-
-    10% {
-        transform: translate(-1px, -1px);
-    }
-
-    20% {
-        transform: translate(1px, 1px);
-    }
-
-    30% {
-        transform: translate(-1px, -1px);
-    }
-
-    40% {
-        transform: translate(1px, 1px);
-    }
-
-    50% {
-        transform: translate(-1px, -1px);
-    }
-
-    60% {
-        transform: translate(1px, 1px);
-    }
-
-    70% {
-        transform: translate(-1px, -1px);
-    }
-
-    80% {
-        transform: translate(1px, 1px);
-    }
-
-    90% {
-        transform: translate(-1px, -1px);
-    }
-
-    100% {
-        transform: translate(1px, 1px);
-    }
+  0% {
+    transform: translate(1px, 1px);
+  }
+  10% {
+    transform: translate(-1px, -1px);
+  }
+  20% {
+    transform: translate(1px, 1px);
+  }
+  30% {
+    transform: translate(-1px, -1px);
+  }
+  40% {
+    transform: translate(1px, 1px);
+  }
+  50% {
+    transform: translate(-1px, -1px);
+  }
+  60% {
+    transform: translate(1px, 1px);
+  }
+  70% {
+    transform: translate(-1px, -1px);
+  }
+  80% {
+    transform: translate(1px, 1px);
+  }
+  90% {
+    transform: translate(-1px, -1px);
+  }
+  100% {
+    transform: translate(1px, 1px);
+  }
 }
 
 /*# sourceMappingURL=mention.css.map */

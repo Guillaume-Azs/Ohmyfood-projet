@@ -1,3 +1,15 @@
+$dark-green: #579c87;
+$yellow: #fdcb46;
+$pink: #fcdfdb;
+$brown: #3c1218;
+$white-1: #fff5fe;
+$orange: #c77412;
+$white-2: #f9f9f9;
+$blue: #0887fb;
+$white-3: #fdfffd;
+$green: #72bf56;
+
+
 /*general*/
 body,
 html {
@@ -21,7 +33,7 @@ html {
 /*header*/
 
 header {
-    background-color: #579c87;
+    background-color: $dark-green;
     font-family: 'breulgroteskA-regular', sans-serif;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -37,7 +49,7 @@ header {
     }
 
     a {
-        color: #fdcb46;
+        color: $yellow;
     }
 }
 
@@ -79,7 +91,7 @@ header {
 }
 
 .menu1 {
-    background-color: #fcdfdb;
+    background-color: $pink;
     display: block;
 
     #music {
@@ -104,12 +116,12 @@ header {
 
     .note,
     .titre1 {
-        color: #3c1218;
+        color: $brown;
     }
 }
 
 .menu2 {
-    background-color: #fff5fe;
+    background-color: $white-1;
 
     .le-chic {
         font-family: 'croissant one';
@@ -123,13 +135,13 @@ header {
     .titre2 {
         font-size: 45px;
         font-family: 'tillana';
-        color: #c77412;
+        color: $orange;
     }
 
 }
 
 .menu3 {
-    background-color: #f9f9f9;
+    background-color: $white-2;
 
     .papille {
         font-family: 'parisienne';
@@ -142,12 +154,12 @@ header {
     .titre3 {
         font-size: 45px;
         font-family: 'tillana';
-        color: #0887fb;
+        color: $blue;
     }
 }
 
 .menu4 {
-    background-color: #fdfffd;
+    background-color: $white-3;
 
     .palette {
         font-family: 'tillana';
@@ -160,7 +172,7 @@ header {
     .titre4 {
         font-family: 'tillana';
         font-size: 45px;
-        color: #72bf56
+        color: $green;
     }
 }
 
@@ -169,9 +181,9 @@ header {
     height: 35%;
 
     .prochainement {
-        background-color: #579c87;
+        background-color: $dark-green;
         font-family: 'NoyhRW01-SemiLight', sans-serif;
-        color: #fdcb46;
+        color: $yellow;
         font-size: 40px;
         border-radius: 5px;
         width: 390px;
@@ -212,13 +224,13 @@ header {
 }
 
 footer {
-    background-color: #579c87;
+    background-color: $dark-green;
     position: fixed;
     bottom: 0;
     width: 100%;
 
     #contenair {
-        color: #fdcb46;
+        color: $yellow;
         font-family: 'NoyhRW01-SemiLight', sans-serif;
         font-size: 30px;
         display: flex;
@@ -232,7 +244,7 @@ footer {
     }
 
     a {
-        color: #fdcb46;
+        color: $yellow;
     }
 
     .mention:hover,
