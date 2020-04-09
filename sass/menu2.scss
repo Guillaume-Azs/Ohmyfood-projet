@@ -175,6 +175,7 @@ header {
         display: flex;
         justify-content: space-around;
         align-items: center;
+        text-align: center;
     }
 
     .Titre-menu2,
@@ -188,6 +189,7 @@ header {
         margin-top: 3%;
         font-size: 2em;
         color: $orange-1;
+        text-align: center;
     }
 
     .Titre-menu2 h3 {
