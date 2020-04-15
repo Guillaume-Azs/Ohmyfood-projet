@@ -71,8 +71,8 @@ header {
     text-align: center;
 
     &:hover {
-        -webkit-transform: scale(1.2);
-        transform: scale(1.2);
+        -webkit-transform: scale(1);
+        transform: scale(1);
         opacity: .5;
         transition: transform 1s;
     }

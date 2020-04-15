@@ -75,10 +75,22 @@ header a {
 .menu2,
 .menu3,
 .menu4 {
-    width: 600px;
-    height: 850px;
+    width: 320px;
+    height: 580px;
   }
+    header{
+        width: auto;
+    }
 }
+@media screen and (max-width: 330px){
+        .menu1,
+        .menu2,
+        .menu3,
+        .menu4{
+            width: 300px;
+            height: 550px;
+        }
+    }
 
 .menu1 {
   background-color: #fcdfdb;
@@ -91,16 +103,31 @@ header a {
   color: transparent;
   -webkit-background-clip: text;
 }
+ @media screen and (max-width: 1080px){
+        .menu1 #music{
+            font-size: 90px;
+        }
+    }
 .menu1 .note {
   font-size: 60px;
   font-family: "devonshire", cursive;
   margin: 0;
 }
+ @media screen and (max-width: 1080px){
+        .menu1 .note{
+            font-size: 40px;
+        }
+    }
 .menu1 .titre1 {
   font-size: 45px;
   font-weight: bold;
   font-family: "tillana";
 }
+ @media screen and (max-width: 1080px){
+        .menu1 .titre1{
+            font-size: 30px;
+        }
+    }
 .menu1 .note,
 .menu1 .titre1 {
   color: #3c1218;
@@ -117,11 +144,21 @@ header a {
   color: transparent;
   -webkit-background-clip: text;
 }
+@media screen and (max-width: 1080px){
+        .menu2 .le-chic{
+            font-size: 20px;
+        }
+    }
 .menu2 .titre2 {
   font-size: 45px;
   font-family: "tillana";
   color: #c77412;
 }
+@media screen and (max-width: 1080px){
+        .menu2 .titre2{
+            font-size: 20px;
+        }
+    }
 
 .menu3 {
   background-color: #f9f9f9;
@@ -133,11 +170,21 @@ header a {
   color: transparent;
   -webkit-background-clip: text;
 }
+@media screen and (max-width: 1080px){
+        .menu3 .papille{
+            font-size: 30px;
+        }
+    }
 .menu3 .titre3 {
   font-size: 45px;
   font-family: "tillana";
   color: #0887fb;
 }
+@media screen and (max-width: 1080px){
+        .menu3 .titre3{
+            font-size: 20px;
+        }
+    }
 
 .menu4 {
   background-color: #fdfffd;
@@ -149,11 +196,21 @@ header a {
   color: transparent;
   -webkit-background-clip: text;
 }
+@media screen and (max-width: 1080px){
+        .menu4 .palette{
+            font-size: 30px;
+        }
+    }
 .menu4 .titre4 {
   font-family: "tillana";
   font-size: 45px;
   color: #72bf56;
 }
+@media screen and (max-width: 1080px){
+        .menu4 .titre4{
+            font-size: 20px;
+        }
+    }
 
 /*footer*/
 #asuivre {
@@ -171,8 +228,11 @@ header a {
 }
 @media screen and (max-width: 1080px) {
   #asuivre .prochainement {
-    font-size: 45px;
+    font-size: 20px;
     width: 450px;
+      margin-bottom: 190px;
+      width: 200px;
+      height: 60px
   }
 }
 #asuivre .prochainement p {
@@ -181,7 +241,7 @@ header a {
 #asuivre #point1,
 #asuivre #point2,
 #asuivre #point3 {
-  font-size: 10px;
+  font-size: 5px;
 }
 #asuivre #point1 {
   animation: bounce1 1.5s infinite;
@@ -215,7 +275,7 @@ footer #contenair {
 }
 @media screen and (max-width: 1080px) {
   footer #contenair {
-    font-size: 40px;
+    font-size: 20px;
   }
 }
 footer a {
