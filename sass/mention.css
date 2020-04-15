@@ -69,6 +69,18 @@ header a {
     font-size: 1.7em;
   }
 }
+@media screen and (max-width: 810px){
+    #mention{
+        height: 3500px;
+        margin-bottom: 500px
+    }
+}
+@media screen and (max-width: 560px){
+    #mention{
+        height: 4000px;
+        margin-bottom: 100px;
+    }
+}
 
 /*footer*/
 footer {
@@ -94,6 +106,11 @@ footer .p3:hover {
   -webkit-animation: wiggle 0.1s infinite;
 }
 
+@media screen and (max-width: 485px){
+footer #contenair{
+        font-size: 20px;
+    }
+}
 /*keyframes*/
 @-webkit-keyframes wiggle {
   0% {

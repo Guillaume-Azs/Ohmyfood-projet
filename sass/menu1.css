@@ -149,6 +149,37 @@ header a {
   }
 }
 
+@media screen and (max-width: 785px){
+    .menu1 img{
+        height: 20px
+    }
+    .menu1 .plat{
+        font-size: 15px
+    }
+    .menu1 .prix {
+        font-size: 15px
+    }
+    .menu1 #music, .menu1 #music2{
+        font-size: 60px
+    }
+    .menu1 .note, .menu1 .note2{
+        font-size: 30px
+    }
+    .menu1 h3{
+        font-size: 20px
+    }
+    .menu1{
+        height: 1300px;
+    }
+}
+@media screen and (max-width: 485px){
+    .menu1 img{
+        height: 10px
+    }
+    .menu1{
+        height: 1500px;
+    }
+}
 /*footer*/
 footer {
   background-color: #579c87;
@@ -173,7 +204,11 @@ footer a {
   color: #fdcb46;
   text-decoration: none;
 }
-
+@media screen and (max-width: 485px){
+footer #contenair{
+        font-size: 20px;
+    }
+}
 /*keyframes*/
 @-webkit-keyframes wiggle {
   0% {

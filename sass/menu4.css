@@ -125,6 +125,36 @@ li .prix {
   }
 }
 
+@media screen and (max-width: 785px){
+    .menu4 img{
+        height: 20px
+    }
+    .menu4 .plat{
+        font-size: 15px
+    }
+    .menu4 .prix {
+        font-size: 15px
+    }
+    .menu4 .palette{
+        font-size: 30px;
+        text-align: center;
+    }
+    .menu4 h3{
+        font-size: 20px
+    }
+    .menu4{
+        height: 1300px;
+    }
+}
+@media screen and (max-width: 485px){
+    .menu4 img{
+        height: 10px
+    }
+    .menu4{
+        height: 1500px;
+    }
+}
+
 /*footer*/
 footer {
   background-color: #579c87;
@@ -148,6 +178,12 @@ footer .p3:hover {
 footer a {
   color: #fdcb46;
   text-decoration: none;
+}
+
+@media screen and (max-width: 485px){
+footer #contenair{
+        font-size: 20px;
+    }
 }
 
 /*keyframes*/

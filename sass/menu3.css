@@ -154,6 +154,36 @@ li .prix {
   }
 }
 
+@media screen and (max-width: 785px){
+    .menu3 img{
+        height: 20px
+    }
+    .menu3 .plat{
+        font-size: 15px
+    }
+    .menu3 .prix {
+        font-size: 15px
+    }
+    .menu3 .delice{
+        font-size: 30px;
+        text-align: center;
+    }
+    .menu3 h3{
+        font-size: 20px
+    }
+    .menu3{
+        height: 1300px;
+    }
+}
+@media screen and (max-width: 485px){
+    .menu3 img{
+        height: 10px
+    }
+    .menu3{
+        height: 1500px;
+    }
+}
+
 /*footer*/
 footer {
   background-color: #579c87;
@@ -177,6 +207,12 @@ footer .p3:hover {
 footer a {
   color: #fdcb46;
   text-decoration: none;
+}
+
+@media screen and (max-width: 485px){
+footer #contenair{
+        font-size: 20px;
+    }
 }
 
 /*keyframes*/
